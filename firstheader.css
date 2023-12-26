@@ -1,0 +1,55 @@
+
+.firstheader
+{
+
+    height: 65px;
+    width: 100%;
+    border-bottom:0.1px solid rgb(238, 234, 234);
+}
+img{
+    height:51px ;
+    width: 155px;
+    vertical-align: top;
+    position:absolute;
+    left: 100px;
+}
+.one{
+    float: left;
+    margin-left: 70px;
+    position: relative;
+    left:400px;
+    font-size: 17px;
+    color:rgb(48, 45, 45);
+    font-family: 'roboto';
+    word-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+}
+b{
+
+    cursor: pointer;
+
+}
+.icons{
+    float: left;
+    position: relative;
+    left: 443px;
+    top:  10px;
+    margin: 7px;
+    cursor: pointer;
+}
+.phicon{
+    position:absolute;
+    float:left;
+    right: 115px;
+}
+.emicons{
+    position:absolute;
+    float:left;
+    right: 155px;
+}
+.locon{
+    position:absolute;
+    float:left;
+    right: 230px;
+}

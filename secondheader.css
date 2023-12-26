@@ -1,0 +1,502 @@
+.second{
+    position: sticky;
+    width: 100%;
+    top:0px;
+    background-color: white;
+}
+
+.menu{
+    height: 56px;
+    width: 50px;
+    background-color: #910606;
+    left: 98px;
+    display: flex;
+    margin-left: 87px;
+}
+.menubar{
+    margin: 15px;
+}
+.menuiteams{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    margin-left: 136px;
+    margin-top: -50px;
+}
+.menuiteams1{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -49px;
+}
+.menuiteams2{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 230px;
+    margin-top: -50px;
+}
+.menuiteams3{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 354px;
+    margin-top: -50px;
+}
+.menuiteams4{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 487px;
+    margin-top: -50px;
+}
+.menuiteams5{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 716px;
+    margin-top: -50px;
+}
+.child{
+    margin:auto;
+     
+}
+.enquiry{
+
+   height: 35px;
+   width: 200px;
+   margin-left: 1000px;
+   margin-top:-47px;
+   background-color: #910606;
+   text-align: center;
+   padding-top: 20px;
+   color:white;
+   font-family: arial;
+   font-weight: 500;
+   opacity: 1;
+}
+.enquiry:hover{
+    background-color: #2CA8FF;
+}
+.menu:hover{
+    background-color: black;
+}
+.search{
+    height: 35px;
+    width: 20px;
+    margin-left: 959px;
+    margin-top: -44px;
+    cursor: pointer;
+}
+.center{
+    height: 600px;
+    width: 100%;
+}
+.slider{
+    position: relative;
+    height: 400px;
+    width: 1100px;
+    margin-left: 86px;
+    overflow: hidden;
+}
+.sliderimg{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: 0px;
+    animation: slide 50s  infinite;
+    background-image: url('images2.jpg');
+}
+@keyframes slide{
+    0%{
+        left: 0px;
+    }
+    20%{
+        left:1101px;
+    }
+    30%{
+        left: 2202px;
+    }
+    40%{
+        left:3303px;
+    }
+    50%{
+        left: 2202px;
+    }
+    60%{
+        left:1101px;
+    }
+    70%{
+        left: 0px;
+    }
+}
+
+.sliderimg1{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -1101px;
+    animation: slide1 50s  infinite;
+    background-image: url('image3.jpg');
+    
+}
+@keyframes slide1{
+    0%{
+        left: -1101px;
+    }
+    20%{
+        left:0px;
+    }
+    30%{
+        left: 1101px;
+    }
+    40%{
+        left:2202px;
+    }
+    50%{
+        left: 1101px;
+    }
+    60%{
+        left:0px;
+    }
+    70%{
+        left: -1101px;
+    }
+}
+.sliderimg2{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide2 50s  infinite;
+    background-image: url('images4.webp');
+    
+    
+}
+@keyframes slide2{
+    0%{
+        left: -2202px;
+    }
+    20%{
+        left: -1101px;
+    }
+    30%{
+        left: 0px;
+    }
+    40%{
+        left:1101px;
+    }
+    50%{
+        left: 0px;
+    }
+    60%{
+        left:-1101px;
+    }
+    70%{
+        left: -2202px;
+    }
+}
+.sliderimg3{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide3 50s  infinite;
+    background-image: url('images5.jpg');
+    
+    
+}
+@keyframes slide3{
+    0%{
+        left: -3303px;
+    }
+    20%{
+        left: -2202px;
+    }
+    30%{
+        left: -1101px;
+    }
+    40%{
+        left:0px;
+    }
+    50%{
+        left: -1101px;
+    }
+    60%{
+        left:-2202px;
+    }
+    70%{
+        left: -3303px;
+    }
+}
+.sliderbottom1{
+    height: 191px;
+    width: 330px;
+    border-right: 1px solid rgb(249, 241, 241);
+    margin-left: 139px;
+}
+.sliderbottom2{
+    height: 184px;
+    width: 330px;
+    border-right: 1px solid rgb(249, 241, 241);
+    margin-left: 485px;
+    margin-top: -190px;
+}
+.sliderbottom3{
+    height: 191px;
+    width: 330px;
+    margin-left: 331px;
+    margin-top: -2px;
+}
+.arrow{
+    height: 187px;
+    width: 161px;
+    float: left;
+    text-align: center;
+    word-spacing: 2px;
+}
+.ab{
+    position: absolute;
+    font-size: 2.5em;
+    left: 197px;
+    right: 10px;
+    top: 622px;
+    bottom: 0;
+
+}
+.ab2{
+    position: absolute;
+    font-size: 2em;
+    left: 504px;
+    right: 10px;
+    top: 628px;
+    bottom: 0;
+}
+.ab3{
+    position: absolute;
+    font-size: 4em;
+    left: 847px;
+    right: 10px;
+    top: 607px;
+    bottom: 0;
+}
+.ad{
+    position: absolute;
+    top:650px;
+    left:332px;
+}
+.ad1{
+    position: absolute;
+    top:650px;
+    left: 655px;px;
+}
+.ad2{
+    position: absolute;
+    top:650px;
+    left:1001px;
+}
+.ae{
+    position: absolute;
+    top :593px;
+    left:308px;
+}
+.ae3{
+    position: absolute;
+    top: 594px;
+    left:1006px;
+}
+.ae2{
+    position: absolute;
+    top: 594px;
+    left: 669px;
+}
+#frame {
+	margin: 0 auto;
+	width: 1089px;
+	max-width: 100%;
+	text-align: center;
+    height: 100%;
+    transition: 1s;
+}
+
+#frame input[type=radio] {
+	display: none;
+    transition: 1s;
+}
+
+#frame label {
+	cursor: pointer;
+	text-decoration: none;
+    transition: 1s;
+}
+
+#slides {
+	padding: 10px;
+	position: unset;
+    animation:1s  forwards;
+}
+
+#overflow {
+	width: 100%;
+	overflow: hidden;
+    transition: 1s;
+}
+
+#frame1:checked~#slides .inner {
+	margin-left: 0;
+    transition: 1s;
+}
+
+#frame2:checked~#slides .inner {
+	margin-left: -100%;
+    transition: 1s;
+}
+
+#frame3:checked~#slides .inner {
+	margin-left: -200%;
+    transition: 1s;
+}
+
+#frame4:checked~#slides .inner {
+	margin-left: -300%;
+    transition: 1s;
+}
+
+#slides .inner {
+	transition:1s;
+	width: 400%;
+	line-height: 0;
+	height: 300px;
+    transition: 1s;
+}
+
+#slides .frame {
+	width: 25%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	color: #FFF;
+    transition: 1s;
+}
+
+#slides .frame_1 {
+	background: url('images.jpg');
+    transition: 1s; 
+}
+
+#slides .frame_2 {
+	background:url('images2.jpg');
+    transition: 1s;
+}
+
+#slides .frame_3 {
+	background:url('image3.jpg');
+    transition: 1s;
+}
+
+#slides .frame_4 {
+	background:url('images4.webp');
+    transition: 1s;
+}
+
+#controls {
+	margin: -180px 0 0 0;
+	width: 100%;
+	height: 50px;
+	z-index: 3;
+	position: relative;
+    transition: 1s;
+}
+
+#controls label {
+	transition: opacity 0.2s ease-out;
+	display: none;
+	width: 50px;
+	height: 50px;
+	opacity: .4;
+    transition: 1s;
+}
+
+#controls label:hover {
+	opacity: 1;
+    transition: 1s;
+}
+
+#frame1:checked~#controls label:nth-child(2),
+#frame2:checked~#controls label:nth-child(3),
+#frame3:checked~#controls label:nth-child(4),
+#frame4:checked~#controls label:nth-child(1) {
+	background:
+url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+	float: right;
+	margin: -37px 0px 0 16p;
+	display: block;
+    transition: 1s;
+}
+
+#frame1:checked~#controls label:nth-last-child(2),
+#frame2:checked~#controls label:nth-last-child(3),
+#frame3:checked~#controls label:nth-last-child(4),
+#frame4:checked~#controls label:nth-last-child(1) {
+	background:
+url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+	float: left;
+	margin:-37px 9px 49px -2px;
+	display: block;
+    transition: 1s ;
+}
+
+#bullets {
+	margin: -78px 0 0;
+	text-align: center;
+    transition: 1s;
+}
+
+#bullets label {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #ccc;
+	margin: 0 10px;
+    transition: 1s;
+}
+
+#frame1:checked~#bullets label:nth-child(1),
+#frame2:checked~#bullets label:nth-child(2),
+#frame3:checked~#bullets label:nth-child(3),
+#frame4:checked~#bullets label:nth-child(4) {
+	background: #444;
+    transition: 1s;
+}
+
+@media screen and (max-width: 900px) {
+	#frame1:checked~#controls label:nth-child(2),
+	#frame2:checked~#controls label:nth-child(3),
+	#frame3:checked~#controls label:nth-child(4),
+	#frame4:checked~#controls label:nth-child(1),
+	#frame1:checked~#controls label:nth-last-child(2),
+	#frame2:checked~#controls label:nth-last-child(3),
+	#frame3:checked~#controls label:nth-last-child(4),
+	#frame4:checked~#controls label:nth-last-child(1) {
+		margin: 0;
+        transition: 1s;
+	}
+	#slides {
+		max-width: calc(100% - 140px);
+		margin: 0 auto;
+        transition: 1s;
+	}
+}
